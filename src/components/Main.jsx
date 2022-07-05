@@ -9,7 +9,7 @@ import AboutPage from './pages/AboutPage'
 const Main = () => {
     return (
         <main>
-            <Header title={'Feedback UI'} />
+            <Header title={'Feedback App'} />
             <div className="px-3">
                 <div className="container mx-auto">
                     <Routes>
