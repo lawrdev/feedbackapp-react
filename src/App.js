@@ -1,13 +1,16 @@
-import Header from "./components/Header";
+import { BrowserRouter as Router } from "react-router-dom";
+import { FeedbackProvider } from './context/FeedbackContext'
 import Main from "./components/Main";
 
 function App() {
   return (
-    <div className="font-body">
-      <Header title={'Feedback UI'} />
-      <Main />
-  
-    </div>
+    <FeedbackProvider>
+      <Router>
+        <div className="font-body">
+          <Main />
+        </div>
+      </Router>
+    </FeedbackProvider>
   );
 }
 

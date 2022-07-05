@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        body: ['Poppins'],
+        body: ['Poppins', 'verdana'],
       }
     },
   },
